@@ -1,2 +1,3 @@
 # aza-commerce-revenue-analysis
-E-commerce revenue analysis focused on sales performance, product trends, and customer purchasing patterns.
+Revenue and growth analysis for a pan-African e-commerce
+platform. Built with SQL Server 2019 and visualised in Power BI.
