@@ -1,0 +1,31 @@
+product_id,product_name,category,price,cost_price
+1,Wireless Earbuds Pro,Electronics,45000,22000
+2,Bluetooth Speaker,Electronics,32000,14000
+3,USB-C Fast Charger,Electronics,8500,3200
+4,Laptop Stand,Electronics,15000,6000
+5,Wireless Mouse,Electronics,12000,4500
+6,Men's Casual Sneakers,Fashion,28000,11000
+7,Women's Ankara Dress,Fashion,22000,8500
+8,Leather Crossbody Bag,Fashion,35000,14000
+9,Men's Slim Fit Chinos,Fashion,18000,7000
+10,Women's Sunglasses,Fashion,12500,4000
+11,Air Fryer 4L,Home & Living,55000,28000
+"12, 'Bedsheet Set (King"
+13,Wall Clock Modern,Home & Living,9500,3800
+14,Electric Kettle,Home & Living,16000,7000
+15,Throw Pillow Set,Home & Living,11000,4200
+16,Vitamin C Serum,Beauty & Health,14000,5000
+17,Electric Face Massager,Beauty & Health,22000,9000
+18,Sunscreen SPF50,Beauty & Health,8000,2800
+19,Hair Growth Oil,Beauty & Health,10500,3500
+20,Digital Weighing Scale,Beauty & Health,13000,5500
+21,Yoga Mat Premium,Sports,16500,6500
+22,Resistance Bands Set,Sports,9000,3000
+23,Running Shoes,Sports,38000,16000
+24,Water Bottle 1L,Sports,6500,2200
+25,Jump Rope Pro,Sports,5500,1800
+26,Rich Dad Poor Dad,Books & Education,5500,1800
+27,Atomic Habits,Books & Education,6000,2000
+28,Data Analysis Handbook,Books & Education,12000,4500
+29,Business Strategy Workbook,Books & Education,9500,3200
+30,Children's Activity Pack,Books & Education,7500,2800

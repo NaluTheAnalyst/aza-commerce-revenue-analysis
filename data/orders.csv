@@ -1,0 +1,542 @@
+order_id,customer_id,order_date,delivery_status,payment_method,delivery_date,country,city
+1,1,2023-12-01,delivered,bank_transfer,2023-12-03,Ghana,Tamale
+2,1,2023-08-30,delivered,bank_transfer,2023-09-01,Ghana,Tamale
+3,2,2023-10-26,delivered,bank_transfer,2023-10-30,Nigeria,Kano
+4,3,2023-07-21,cancelled,pay_on_delivery,NULL,Kenya,Nakuru
+5,4,2023-08-28,delivered,pay_on_delivery,2023-09-01,South Africa,Durban
+6,4,2023-10-01,cancelled,mobile_money,NULL,South Africa,Durban
+7,5,2023-07-06,delivered,pay_on_delivery,2023-07-08,South Africa,Durban
+8,5,2023-11-23,delivered,mobile_money,2023-11-27,South Africa,Durban
+9,6,2023-11-08,delivered,pay_on_delivery,2023-11-11,Nigeria,Ibadan
+10,6,2023-10-12,delivered,mobile_money,2023-10-14,Nigeria,Ibadan
+11,7,2023-03-05,delivered,card,2023-03-08,Kenya,Nairobi
+12,8,2023-12-10,pending,pay_on_delivery,NULL,Ghana,Accra
+13,8,2023-09-27,delivered,pay_on_delivery,2023-09-29,Ghana,Accra
+14,9,2023-09-15,delivered,mobile_money,2023-09-18,Ghana,Kumasi
+15,10,2023-11-17,delivered,pay_on_delivery,2023-11-24,Ghana,Accra
+16,10,2023-09-25,delivered,pay_on_delivery,2023-10-01,Ghana,Accra
+17,10,2023-10-11,pending,pay_on_delivery,NULL,Ghana,Accra
+18,10,2023-12-28,delivered,bank_transfer,2024-01-02,Ghana,Accra
+19,11,2023-04-25,delivered,card,2023-04-30,Ghana,Tamale
+20,12,2023-12-03,pending,mobile_money,NULL,Ghana,Accra
+21,13,2023-10-20,cancelled,pay_on_delivery,NULL,Kenya,Nairobi
+22,14,2023-12-04,delivered,pay_on_delivery,2023-12-08,Ghana,Tamale
+23,15,2023-11-24,delivered,card,2023-11-26,Nigeria,Lagos
+24,15,2023-11-01,delivered,pay_on_delivery,2023-11-06,Nigeria,Lagos
+25,15,2023-10-16,delivered,bank_transfer,2023-10-21,Nigeria,Lagos
+26,16,2023-10-06,delivered,pay_on_delivery,2023-10-13,Nigeria,Abuja
+27,16,2023-09-11,delivered,bank_transfer,2023-09-15,Nigeria,Abuja
+28,17,2023-09-14,delivered,pay_on_delivery,2023-09-20,Nigeria,Ibadan
+29,18,2023-11-21,delivered,pay_on_delivery,2023-11-23,Nigeria,Port Harcourt
+30,18,2023-12-23,delivered,pay_on_delivery,2023-12-28,Nigeria,Port Harcourt
+31,18,2023-10-23,cancelled,card,NULL,Nigeria,Port Harcourt
+32,18,2023-09-23,delivered,pay_on_delivery,2023-09-26,Nigeria,Port Harcourt
+33,19,2023-05-31,delivered,pay_on_delivery,2023-06-06,Ghana,Tamale
+34,19,2023-11-03,delivered,pay_on_delivery,2023-11-07,Ghana,Tamale
+35,19,2023-11-22,delivered,bank_transfer,2023-11-29,Ghana,Tamale
+36,20,2023-10-20,delivered,bank_transfer,2023-10-22,Kenya,Kisumu
+37,20,2023-05-14,cancelled,pay_on_delivery,NULL,Kenya,Kisumu
+38,20,2023-08-01,delivered,mobile_money,2023-08-08,Kenya,Kisumu
+39,20,2023-05-30,cancelled,card,NULL,Kenya,Kisumu
+40,20,2023-09-06,delivered,card,2023-09-11,Kenya,Kisumu
+41,21,2023-10-19,delivered,pay_on_delivery,2023-10-26,Kenya,Kisumu
+42,22,2023-12-18,pending,mobile_money,NULL,Ghana,Accra
+43,22,2023-11-17,cancelled,bank_transfer,NULL,Ghana,Accra
+44,22,2023-09-08,delivered,card,2023-09-10,Ghana,Accra
+45,23,2023-10-23,pending,card,NULL,Nigeria,Port Harcourt
+46,23,2023-12-07,delivered,card,2023-12-10,Nigeria,Port Harcourt
+47,24,2023-11-05,cancelled,pay_on_delivery,NULL,Kenya,Nakuru
+48,24,2023-10-22,delivered,card,2023-10-28,Kenya,Nakuru
+49,24,2023-12-06,cancelled,mobile_money,NULL,Kenya,Nakuru
+50,24,2023-12-19,delivered,bank_transfer,2023-12-24,Kenya,Nakuru
+51,24,2023-11-06,delivered,pay_on_delivery,2023-11-13,Kenya,Nakuru
+52,25,2023-05-16,delivered,bank_transfer,2023-05-19,Ghana,Accra
+53,25,2023-07-01,pending,mobile_money,NULL,Ghana,Accra
+54,25,2023-11-08,cancelled,pay_on_delivery,NULL,Ghana,Accra
+55,26,2023-06-23,delivered,mobile_money,2023-06-27,Kenya,Mombasa
+56,27,2023-09-19,delivered,card,2023-09-26,Ghana,Takoradi
+57,27,2023-11-03,cancelled,mobile_money,NULL,Ghana,Takoradi
+58,27,2023-11-26,delivered,mobile_money,2023-12-02,Ghana,Takoradi
+59,27,2023-11-17,delivered,pay_on_delivery,2023-11-22,Ghana,Takoradi
+60,27,2023-09-02,delivered,bank_transfer,2023-09-05,Ghana,Takoradi
+61,27,2023-12-02,pending,bank_transfer,NULL,Ghana,Takoradi
+62,28,2023-03-29,delivered,card,2023-04-03,South Africa,Johannesburg
+63,28,2023-05-24,delivered,pay_on_delivery,2023-05-27,South Africa,Johannesburg
+64,28,2023-08-22,pending,pay_on_delivery,NULL,South Africa,Johannesburg
+65,29,2023-12-07,delivered,bank_transfer,2023-12-14,Ghana,Accra
+66,29,2023-12-23,delivered,mobile_money,2023-12-25,Ghana,Accra
+67,29,2023-11-14,cancelled,bank_transfer,NULL,Ghana,Accra
+68,29,2023-12-02,cancelled,card,NULL,Ghana,Accra
+69,29,2023-10-08,cancelled,card,NULL,Ghana,Accra
+70,29,2023-12-13,delivered,bank_transfer,2023-12-15,Ghana,Accra
+71,30,2023-06-21,cancelled,mobile_money,NULL,Ghana,Takoradi
+72,30,2023-04-30,delivered,card,2023-05-05,Ghana,Takoradi
+73,30,2023-08-30,delivered,card,2023-09-06,Ghana,Takoradi
+74,31,2023-08-23,delivered,mobile_money,2023-08-28,Kenya,Nakuru
+75,31,2023-10-26,delivered,card,2023-11-01,Kenya,Nakuru
+76,32,2023-11-16,pending,pay_on_delivery,NULL,Ghana,Tamale
+77,32,2023-12-03,delivered,card,2023-12-05,Ghana,Tamale
+78,33,2023-10-30,delivered,mobile_money,2023-11-06,Kenya,Nakuru
+79,33,2023-08-20,cancelled,card,NULL,Kenya,Nakuru
+80,34,2023-11-28,delivered,bank_transfer,2023-12-05,Ghana,Kumasi
+81,34,2023-10-04,delivered,mobile_money,2023-10-06,Ghana,Kumasi
+82,35,2023-07-08,pending,card,NULL,Ghana,Kumasi
+83,35,2023-10-06,pending,pay_on_delivery,NULL,Ghana,Kumasi
+84,36,2023-05-31,delivered,card,2023-06-07,Kenya,Nairobi
+85,37,2023-07-22,delivered,mobile_money,2023-07-27,Ghana,Tamale
+86,37,2023-08-15,delivered,mobile_money,2023-08-22,Ghana,Tamale
+87,37,2023-03-24,delivered,bank_transfer,2023-03-26,Ghana,Tamale
+88,38,2023-10-31,delivered,mobile_money,2023-11-07,South Africa,Cape Town
+89,38,2023-10-10,delivered,pay_on_delivery,2023-10-15,South Africa,Cape Town
+90,38,2023-10-25,delivered,card,2023-10-30,South Africa,Cape Town
+91,39,2023-06-07,pending,mobile_money,NULL,Ghana,Accra
+92,40,2023-06-30,delivered,mobile_money,2023-07-06,Nigeria,Ibadan
+93,41,2023-07-01,delivered,pay_on_delivery,2023-07-07,Nigeria,Abuja
+94,41,2023-12-07,cancelled,card,NULL,Nigeria,Abuja
+95,41,2023-12-25,delivered,pay_on_delivery,2023-12-29,Nigeria,Abuja
+96,42,2023-12-09,delivered,bank_transfer,2023-12-13,Kenya,Nairobi
+97,42,2023-11-14,delivered,bank_transfer,2023-11-16,Kenya,Nairobi
+98,42,2023-11-14,cancelled,card,NULL,Kenya,Nairobi
+99,42,2023-11-05,pending,card,NULL,Kenya,Nairobi
+100,42,2023-12-05,delivered,card,2023-12-08,Kenya,Nairobi
+101,43,2023-08-14,delivered,bank_transfer,2023-08-21,Nigeria,Port Harcourt
+102,43,2023-05-27,delivered,mobile_money,2023-05-29,Nigeria,Port Harcourt
+103,43,2023-09-05,delivered,card,2023-09-12,Nigeria,Port Harcourt
+104,44,2023-10-25,delivered,bank_transfer,2023-10-29,South Africa,Pretoria
+105,44,2023-09-29,delivered,mobile_money,2023-10-06,South Africa,Pretoria
+106,44,2023-10-05,delivered,bank_transfer,2023-10-08,South Africa,Pretoria
+107,45,2023-12-22,cancelled,card,NULL,South Africa,Durban
+108,45,2023-11-01,delivered,mobile_money,2023-11-05,South Africa,Durban
+109,45,2023-12-21,cancelled,bank_transfer,NULL,South Africa,Durban
+110,45,2023-11-13,pending,pay_on_delivery,NULL,South Africa,Durban
+111,45,2023-12-29,pending,pay_on_delivery,NULL,South Africa,Durban
+112,45,2023-12-15,delivered,bank_transfer,2023-12-20,South Africa,Durban
+113,46,2023-12-10,cancelled,bank_transfer,NULL,Ghana,Tamale
+114,46,2023-12-15,delivered,bank_transfer,2023-12-19,Ghana,Tamale
+115,46,2023-10-18,pending,pay_on_delivery,NULL,Ghana,Tamale
+116,46,2023-12-26,delivered,card,2024-01-02,Ghana,Tamale
+117,46,2023-12-23,delivered,bank_transfer,2023-12-30,Ghana,Tamale
+118,47,2023-12-09,cancelled,card,NULL,Kenya,Kisumu
+119,48,2023-04-15,delivered,pay_on_delivery,2023-04-20,Kenya,Nakuru
+120,48,2023-12-13,delivered,pay_on_delivery,2023-12-16,Kenya,Nakuru
+121,48,2023-07-20,cancelled,bank_transfer,NULL,Kenya,Nakuru
+122,49,2023-11-04,delivered,bank_transfer,2023-11-09,Kenya,Mombasa
+123,49,2023-12-28,cancelled,card,NULL,Kenya,Mombasa
+124,49,2023-11-28,delivered,card,2023-11-30,Kenya,Mombasa
+125,49,2023-11-08,delivered,pay_on_delivery,2023-11-11,Kenya,Mombasa
+126,50,2023-11-29,delivered,mobile_money,2023-12-04,Kenya,Nairobi
+127,50,2023-12-11,delivered,pay_on_delivery,2023-12-13,Kenya,Nairobi
+128,51,2023-04-26,pending,card,NULL,Nigeria,Abuja
+129,51,2023-12-12,delivered,mobile_money,2023-12-18,Nigeria,Abuja
+130,51,2023-10-25,delivered,card,2023-10-27,Nigeria,Abuja
+131,52,2023-11-08,cancelled,card,NULL,Nigeria,Lagos
+132,52,2023-11-20,delivered,mobile_money,2023-11-23,Nigeria,Lagos
+133,52,2023-04-27,delivered,pay_on_delivery,2023-05-04,Nigeria,Lagos
+134,52,2023-05-04,delivered,bank_transfer,2023-05-06,Nigeria,Lagos
+135,52,2023-09-04,pending,card,NULL,Nigeria,Lagos
+136,53,2023-07-07,delivered,pay_on_delivery,2023-07-11,Ghana,Kumasi
+137,54,2023-10-31,delivered,mobile_money,2023-11-03,Ghana,Takoradi
+138,54,2023-10-25,delivered,mobile_money,2023-10-28,Ghana,Takoradi
+139,54,2023-09-12,delivered,bank_transfer,2023-09-17,Ghana,Takoradi
+140,55,2023-11-24,pending,pay_on_delivery,NULL,Kenya,Kisumu
+141,55,2023-08-18,cancelled,card,NULL,Kenya,Kisumu
+142,55,2023-07-26,delivered,card,2023-07-28,Kenya,Kisumu
+143,55,2023-12-10,pending,pay_on_delivery,NULL,Kenya,Kisumu
+144,56,2023-11-19,pending,bank_transfer,NULL,Ghana,Accra
+145,56,2023-08-29,delivered,bank_transfer,2023-09-03,Ghana,Accra
+146,56,2023-06-17,delivered,mobile_money,2023-06-20,Ghana,Accra
+147,57,2023-12-16,delivered,mobile_money,2023-12-20,South Africa,Johannesburg
+148,57,2023-09-29,cancelled,mobile_money,NULL,South Africa,Johannesburg
+149,57,2023-12-20,delivered,pay_on_delivery,2023-12-22,South Africa,Johannesburg
+150,57,2023-12-11,delivered,mobile_money,2023-12-14,South Africa,Johannesburg
+151,57,2023-02-13,delivered,pay_on_delivery,2023-02-19,South Africa,Johannesburg
+152,58,2023-12-07,delivered,pay_on_delivery,2023-12-14,Nigeria,Kano
+153,58,2023-10-23,delivered,card,2023-10-30,Nigeria,Kano
+154,58,2023-12-05,delivered,bank_transfer,2023-12-08,Nigeria,Kano
+155,58,2023-07-16,delivered,bank_transfer,2023-07-18,Nigeria,Kano
+156,59,2023-08-01,cancelled,pay_on_delivery,NULL,South Africa,Durban
+157,60,2023-11-20,delivered,mobile_money,2023-11-26,South Africa,Pretoria
+158,60,2023-09-15,delivered,bank_transfer,2023-09-17,South Africa,Pretoria
+159,60,2023-09-26,delivered,card,2023-10-02,South Africa,Pretoria
+160,60,2023-12-28,delivered,mobile_money,2024-01-04,South Africa,Pretoria
+161,61,2023-12-26,delivered,card,2023-12-29,Nigeria,Port Harcourt
+162,61,2023-11-21,cancelled,bank_transfer,NULL,Nigeria,Port Harcourt
+163,62,2023-09-19,pending,card,NULL,Nigeria,Lagos
+164,62,2023-10-05,delivered,pay_on_delivery,2023-10-10,Nigeria,Lagos
+165,62,2023-12-02,delivered,pay_on_delivery,2023-12-09,Nigeria,Lagos
+166,62,2023-11-21,pending,mobile_money,NULL,Nigeria,Lagos
+167,62,2023-12-05,delivered,pay_on_delivery,2023-12-09,Nigeria,Lagos
+168,63,2023-12-20,pending,card,NULL,Ghana,Kumasi
+169,63,2023-12-26,delivered,mobile_money,2024-01-01,Ghana,Kumasi
+170,63,2023-12-21,delivered,card,2023-12-28,Ghana,Kumasi
+171,63,2023-08-26,cancelled,mobile_money,NULL,Ghana,Kumasi
+172,63,2023-11-07,pending,mobile_money,NULL,Ghana,Kumasi
+173,63,2023-09-04,delivered,card,2023-09-09,Ghana,Kumasi
+174,64,2023-07-25,delivered,card,2023-07-31,Nigeria,Port Harcourt
+175,65,2023-11-25,pending,mobile_money,NULL,South Africa,Durban
+176,65,2023-09-16,delivered,card,2023-09-23,South Africa,Durban
+177,65,2023-09-22,cancelled,bank_transfer,NULL,South Africa,Durban
+178,65,2023-09-30,delivered,card,2023-10-06,South Africa,Durban
+179,66,2023-12-09,cancelled,mobile_money,NULL,Kenya,Nairobi
+180,67,2023-12-22,delivered,bank_transfer,2023-12-29,Kenya,Nakuru
+181,67,2023-12-03,delivered,pay_on_delivery,2023-12-08,Kenya,Nakuru
+182,67,2023-11-18,delivered,card,2023-11-24,Kenya,Nakuru
+183,67,2023-10-16,cancelled,pay_on_delivery,NULL,Kenya,Nakuru
+184,67,2023-12-30,delivered,mobile_money,2024-01-03,Kenya,Nakuru
+185,68,2023-05-18,delivered,mobile_money,2023-05-20,Nigeria,Port Harcourt
+186,68,2023-07-10,pending,pay_on_delivery,NULL,Nigeria,Port Harcourt
+187,68,2023-04-23,cancelled,mobile_money,NULL,Nigeria,Port Harcourt
+188,68,2023-03-30,cancelled,card,NULL,Nigeria,Port Harcourt
+189,69,2023-11-18,delivered,bank_transfer,2023-11-24,Kenya,Nakuru
+190,69,2023-11-24,delivered,mobile_money,2023-11-29,Kenya,Nakuru
+191,69,2023-09-23,delivered,bank_transfer,2023-09-30,Kenya,Nakuru
+192,70,2023-10-26,delivered,bank_transfer,2023-10-30,Nigeria,Lagos
+193,70,2023-12-18,delivered,card,2023-12-25,Nigeria,Lagos
+194,70,2023-12-02,delivered,card,2023-12-08,Nigeria,Lagos
+195,71,2023-08-23,cancelled,pay_on_delivery,NULL,South Africa,Pretoria
+196,71,2023-10-21,delivered,card,2023-10-25,South Africa,Pretoria
+197,71,2023-07-17,delivered,mobile_money,2023-07-22,South Africa,Pretoria
+198,72,2023-09-19,delivered,mobile_money,2023-09-26,Kenya,Mombasa
+199,73,2023-11-13,pending,pay_on_delivery,NULL,Ghana,Kumasi
+200,73,2023-07-12,cancelled,bank_transfer,NULL,Ghana,Kumasi
+201,73,2023-07-15,delivered,bank_transfer,2023-07-20,Ghana,Kumasi
+202,74,2023-10-10,delivered,pay_on_delivery,2023-10-12,Ghana,Accra
+203,74,2023-11-18,delivered,card,2023-11-23,Ghana,Accra
+204,75,2023-11-13,delivered,pay_on_delivery,2023-11-20,Kenya,Mombasa
+205,75,2023-10-13,delivered,pay_on_delivery,2023-10-17,Kenya,Mombasa
+206,75,2023-11-01,delivered,pay_on_delivery,2023-11-06,Kenya,Mombasa
+207,76,2023-10-17,delivered,card,2023-10-21,Ghana,Tamale
+208,76,2023-09-17,pending,mobile_money,NULL,Ghana,Tamale
+209,76,2023-11-14,cancelled,card,NULL,Ghana,Tamale
+210,77,2023-07-09,cancelled,bank_transfer,NULL,Kenya,Nairobi
+211,77,2023-10-02,cancelled,card,NULL,Kenya,Nairobi
+212,77,2023-12-13,delivered,pay_on_delivery,2023-12-19,Kenya,Nairobi
+213,77,2023-04-04,delivered,pay_on_delivery,2023-04-11,Kenya,Nairobi
+214,78,2023-12-17,delivered,mobile_money,2023-12-24,Kenya,Nakuru
+215,79,2023-04-16,pending,bank_transfer,NULL,Kenya,Mombasa
+216,80,2023-11-28,delivered,bank_transfer,2023-12-04,Kenya,Nakuru
+217,81,2023-11-23,cancelled,mobile_money,NULL,Kenya,Mombasa
+218,81,2023-11-02,delivered,pay_on_delivery,2023-11-09,Kenya,Mombasa
+219,81,2023-10-03,pending,bank_transfer,NULL,Kenya,Mombasa
+220,81,2023-07-27,delivered,mobile_money,2023-07-31,Kenya,Mombasa
+221,82,2023-12-18,delivered,card,2023-12-22,Ghana,Accra
+222,82,2024-01-12,delivered,card,2024-01-15,Ghana,Accra
+223,83,2023-11-03,delivered,bank_transfer,2023-11-05,Kenya,Kisumu
+224,84,2023-12-05,delivered,bank_transfer,2023-12-07,Kenya,Nakuru
+225,85,2023-12-10,delivered,card,2023-12-15,Ghana,Tamale
+226,85,2023-07-26,delivered,pay_on_delivery,2023-07-29,Ghana,Tamale
+227,85,2023-05-15,delivered,pay_on_delivery,2023-05-17,Ghana,Tamale
+228,85,2023-12-21,delivered,card,2023-12-28,Ghana,Tamale
+229,86,2023-11-02,delivered,bank_transfer,2023-11-05,Ghana,Accra
+230,86,2023-11-20,delivered,bank_transfer,2023-11-25,Ghana,Accra
+231,86,2023-12-14,delivered,card,2023-12-19,Ghana,Accra
+232,86,2023-12-14,delivered,card,2023-12-16,Ghana,Accra
+233,86,2023-11-10,delivered,bank_transfer,2023-11-15,Ghana,Accra
+234,87,2023-10-29,delivered,pay_on_delivery,2023-11-04,Nigeria,Ibadan
+235,88,2023-10-23,delivered,mobile_money,2023-10-28,South Africa,Cape Town
+236,88,2023-12-18,cancelled,card,NULL,South Africa,Cape Town
+237,88,2023-10-13,delivered,bank_transfer,2023-10-18,South Africa,Cape Town
+238,88,2023-12-23,pending,mobile_money,NULL,South Africa,Cape Town
+239,88,2023-12-16,delivered,bank_transfer,2023-12-22,South Africa,Cape Town
+240,89,2023-09-05,delivered,card,2023-09-09,Ghana,Kumasi
+241,89,2023-11-20,delivered,pay_on_delivery,2023-11-23,Ghana,Kumasi
+242,89,2023-12-28,delivered,mobile_money,2024-01-04,Ghana,Kumasi
+243,90,2023-09-29,delivered,mobile_money,2023-10-05,Nigeria,Kano
+244,90,2023-07-29,delivered,mobile_money,2023-08-04,Nigeria,Kano
+245,90,2023-12-05,delivered,pay_on_delivery,2023-12-12,Nigeria,Kano
+246,91,2023-08-18,delivered,pay_on_delivery,2023-08-20,Kenya,Nairobi
+247,92,2023-07-14,delivered,pay_on_delivery,2023-07-18,Nigeria,Ibadan
+248,92,2023-11-28,cancelled,mobile_money,NULL,Nigeria,Ibadan
+249,92,2023-09-27,delivered,bank_transfer,2023-09-30,Nigeria,Ibadan
+250,93,2023-05-22,pending,bank_transfer,NULL,Nigeria,Kano
+251,94,2023-09-18,delivered,bank_transfer,2023-09-24,Nigeria,Abuja
+252,94,2023-04-20,delivered,mobile_money,2023-04-23,Nigeria,Abuja
+253,94,2023-12-13,delivered,mobile_money,2023-12-15,Nigeria,Abuja
+254,95,2023-05-13,delivered,mobile_money,2023-05-20,Ghana,Kumasi
+255,97,2023-12-05,delivered,pay_on_delivery,2023-12-10,Kenya,Nakuru
+256,98,2023-11-23,delivered,bank_transfer,2023-11-26,Nigeria,Lagos
+257,98,2023-06-01,delivered,bank_transfer,2023-06-03,Nigeria,Lagos
+258,99,2023-08-31,cancelled,card,NULL,South Africa,Durban
+259,100,2023-11-21,delivered,bank_transfer,2023-11-23,Nigeria,Lagos
+260,100,2023-10-31,pending,pay_on_delivery,NULL,Nigeria,Lagos
+261,100,2023-12-25,delivered,card,2023-12-27,Nigeria,Lagos
+262,101,2023-11-26,delivered,mobile_money,2023-12-01,Kenya,Nakuru
+263,101,2023-10-17,delivered,pay_on_delivery,2023-10-19,Kenya,Nakuru
+264,101,2023-10-21,delivered,card,2023-10-23,Kenya,Nakuru
+265,102,2023-10-28,pending,pay_on_delivery,NULL,Ghana,Tamale
+266,102,2023-12-06,delivered,mobile_money,2023-12-11,Ghana,Tamale
+267,102,2023-09-09,delivered,pay_on_delivery,2023-09-13,Ghana,Tamale
+268,102,2023-10-08,cancelled,pay_on_delivery,NULL,Ghana,Tamale
+269,102,2023-08-09,delivered,pay_on_delivery,2023-08-11,Ghana,Tamale
+270,102,2023-05-28,delivered,card,2023-06-02,Ghana,Tamale
+271,102,2023-10-03,pending,card,NULL,Ghana,Tamale
+272,103,2023-10-30,delivered,card,2023-11-06,Nigeria,Abuja
+273,103,2023-12-15,delivered,pay_on_delivery,2023-12-20,Nigeria,Abuja
+274,104,2023-12-06,delivered,mobile_money,2023-12-13,South Africa,Johannesburg
+275,104,2023-09-20,delivered,pay_on_delivery,2023-09-24,South Africa,Johannesburg
+276,104,2023-12-07,delivered,card,2023-12-14,South Africa,Johannesburg
+277,104,2023-10-16,delivered,bank_transfer,2023-10-22,South Africa,Johannesburg
+278,104,2023-10-01,delivered,mobile_money,2023-10-07,South Africa,Johannesburg
+279,105,2023-11-23,cancelled,bank_transfer,NULL,Kenya,Kisumu
+280,105,2023-11-23,delivered,pay_on_delivery,2023-11-25,Kenya,Kisumu
+281,105,2023-10-21,pending,pay_on_delivery,NULL,Kenya,Kisumu
+282,105,2023-11-15,pending,pay_on_delivery,NULL,Kenya,Kisumu
+283,105,2023-12-29,delivered,mobile_money,2024-01-01,Kenya,Kisumu
+284,105,2023-12-14,pending,card,NULL,Kenya,Kisumu
+285,106,2023-12-27,delivered,mobile_money,2023-12-29,Kenya,Mombasa
+286,107,2023-12-12,pending,mobile_money,NULL,Ghana,Takoradi
+287,107,2023-12-29,cancelled,pay_on_delivery,NULL,Ghana,Takoradi
+288,108,2023-12-10,cancelled,bank_transfer,NULL,Nigeria,Ibadan
+289,108,2023-11-01,delivered,mobile_money,2023-11-07,Nigeria,Ibadan
+290,108,2023-10-19,pending,bank_transfer,NULL,Nigeria,Ibadan
+291,108,2023-10-22,delivered,card,2023-10-27,Nigeria,Ibadan
+292,109,2023-09-19,delivered,bank_transfer,2023-09-26,Kenya,Mombasa
+293,109,2023-11-03,delivered,mobile_money,2023-11-06,Kenya,Mombasa
+294,110,2023-10-14,delivered,pay_on_delivery,2023-10-19,Nigeria,Kano
+295,110,2023-09-24,delivered,pay_on_delivery,2023-09-30,Nigeria,Kano
+296,111,2023-10-19,pending,pay_on_delivery,NULL,Ghana,Tamale
+297,111,2023-10-28,delivered,card,2023-11-02,Ghana,Tamale
+298,111,2023-12-11,delivered,card,2023-12-15,Ghana,Tamale
+299,112,2023-03-26,delivered,card,2023-04-02,Ghana,Takoradi
+300,112,2023-04-30,delivered,card,2023-05-07,Ghana,Takoradi
+301,113,2023-06-14,delivered,bank_transfer,2023-06-21,Ghana,Accra
+302,113,2023-11-06,delivered,card,2023-11-13,Ghana,Accra
+303,113,2023-08-16,delivered,pay_on_delivery,2023-08-22,Ghana,Accra
+304,114,2023-10-20,pending,card,NULL,Ghana,Accra
+305,114,2023-09-24,pending,bank_transfer,NULL,Ghana,Accra
+306,115,2023-06-18,pending,mobile_money,NULL,Nigeria,Abuja
+307,115,2023-02-27,delivered,bank_transfer,2023-03-01,Nigeria,Abuja
+308,116,2023-12-15,cancelled,pay_on_delivery,NULL,Kenya,Kisumu
+309,116,2023-10-31,delivered,card,2023-11-06,Kenya,Kisumu
+310,116,2023-12-14,delivered,pay_on_delivery,2023-12-19,Kenya,Kisumu
+311,116,2023-12-05,delivered,card,2023-12-10,Kenya,Kisumu
+312,116,2023-10-26,delivered,card,2023-11-01,Kenya,Kisumu
+313,117,2023-10-21,delivered,bank_transfer,2023-10-23,South Africa,Cape Town
+314,117,2023-12-23,delivered,card,2023-12-27,South Africa,Cape Town
+315,118,2023-10-05,delivered,mobile_money,2023-10-08,Nigeria,Lagos
+316,118,2023-11-26,delivered,mobile_money,2023-11-29,Nigeria,Lagos
+317,120,2023-09-14,delivered,bank_transfer,2023-09-19,Nigeria,Ibadan
+318,120,2023-09-15,pending,pay_on_delivery,NULL,Nigeria,Ibadan
+319,120,2023-10-11,delivered,bank_transfer,2023-10-17,Nigeria,Ibadan
+320,121,2023-11-01,delivered,card,2023-11-06,Kenya,Nakuru
+321,122,2023-12-09,delivered,pay_on_delivery,2023-12-12,Nigeria,Lagos
+322,122,2023-12-18,delivered,pay_on_delivery,2023-12-22,Nigeria,Lagos
+323,123,2023-11-02,delivered,pay_on_delivery,2023-11-06,Nigeria,Lagos
+324,123,2023-09-21,delivered,card,2023-09-23,Nigeria,Lagos
+325,123,2023-12-28,pending,card,NULL,Nigeria,Lagos
+326,123,2023-11-16,delivered,card,2023-11-22,Nigeria,Lagos
+327,123,2023-10-11,delivered,bank_transfer,2023-10-17,Nigeria,Lagos
+328,124,2023-08-05,pending,card,NULL,Nigeria,Abuja
+329,124,2023-08-02,delivered,mobile_money,2023-08-08,Nigeria,Abuja
+330,125,2023-10-19,pending,pay_on_delivery,NULL,Nigeria,Lagos
+331,125,2023-08-17,delivered,card,2023-08-20,Nigeria,Lagos
+332,126,2023-02-20,delivered,pay_on_delivery,2023-02-27,Kenya,Mombasa
+333,126,2023-10-06,delivered,bank_transfer,2023-10-08,Kenya,Mombasa
+334,127,2023-03-20,cancelled,pay_on_delivery,NULL,Kenya,Nakuru
+335,127,2023-02-14,cancelled,bank_transfer,NULL,Kenya,Nakuru
+336,128,2023-11-19,pending,card,NULL,Ghana,Takoradi
+337,128,2023-12-16,delivered,card,2023-12-21,Ghana,Takoradi
+338,129,2023-08-02,delivered,pay_on_delivery,2023-08-08,Ghana,Takoradi
+339,129,2023-10-22,delivered,card,2023-10-24,Ghana,Takoradi
+340,129,2023-06-06,pending,pay_on_delivery,NULL,Ghana,Takoradi
+341,129,2023-04-15,pending,bank_transfer,NULL,Ghana,Takoradi
+342,130,2023-09-29,delivered,bank_transfer,2023-10-05,South Africa,Johannesburg
+343,130,2023-07-25,delivered,bank_transfer,2023-07-27,South Africa,Johannesburg
+344,130,2023-12-07,delivered,mobile_money,2023-12-13,South Africa,Johannesburg
+345,130,2023-09-08,pending,pay_on_delivery,NULL,South Africa,Johannesburg
+346,130,2023-08-22,pending,card,NULL,South Africa,Johannesburg
+347,130,2023-12-01,pending,pay_on_delivery,NULL,South Africa,Johannesburg
+348,131,2023-11-12,delivered,pay_on_delivery,2023-11-15,Ghana,Tamale
+349,131,2023-11-08,delivered,mobile_money,2023-11-13,Ghana,Tamale
+350,131,2023-12-24,delivered,bank_transfer,2023-12-28,Ghana,Tamale
+351,132,2023-08-08,pending,pay_on_delivery,NULL,South Africa,Durban
+352,132,2023-10-21,delivered,mobile_money,2023-10-24,South Africa,Durban
+353,132,2023-10-28,delivered,pay_on_delivery,2023-11-04,South Africa,Durban
+354,133,2023-04-30,delivered,bank_transfer,2023-05-07,South Africa,Durban
+355,133,2023-04-10,cancelled,bank_transfer,NULL,South Africa,Durban
+356,133,2023-09-09,delivered,bank_transfer,2023-09-12,South Africa,Durban
+357,134,2023-10-12,pending,mobile_money,NULL,Kenya,Mombasa
+358,135,2023-05-25,delivered,pay_on_delivery,2023-05-28,South Africa,Durban
+359,135,2023-03-01,delivered,pay_on_delivery,2023-03-04,South Africa,Durban
+360,136,2023-09-12,delivered,mobile_money,2023-09-14,Ghana,Takoradi
+361,136,2023-09-10,cancelled,card,NULL,Ghana,Takoradi
+362,136,2023-07-19,delivered,pay_on_delivery,2023-07-24,Ghana,Takoradi
+363,136,2023-08-06,delivered,bank_transfer,2023-08-08,Ghana,Takoradi
+364,136,2023-11-03,cancelled,mobile_money,NULL,Ghana,Takoradi
+365,136,2023-10-09,pending,bank_transfer,NULL,Ghana,Takoradi
+366,136,2023-09-11,delivered,bank_transfer,2023-09-14,Ghana,Takoradi
+367,137,2023-09-18,delivered,mobile_money,2023-09-20,South Africa,Johannesburg
+368,137,2023-03-29,delivered,pay_on_delivery,2023-04-02,South Africa,Johannesburg
+369,137,2023-06-14,delivered,mobile_money,2023-06-18,South Africa,Johannesburg
+370,138,2023-05-23,delivered,card,2023-05-28,Nigeria,Ibadan
+371,138,2023-04-12,cancelled,mobile_money,NULL,Nigeria,Ibadan
+372,138,2023-03-07,cancelled,mobile_money,NULL,Nigeria,Ibadan
+373,139,2023-11-01,delivered,pay_on_delivery,2023-11-05,Nigeria,Kano
+374,139,2023-12-17,delivered,bank_transfer,2023-12-24,Nigeria,Kano
+375,139,2023-10-17,cancelled,pay_on_delivery,NULL,Nigeria,Kano
+376,139,2023-11-20,delivered,card,2023-11-23,Nigeria,Kano
+377,140,2023-10-16,delivered,bank_transfer,2023-10-19,Ghana,Tamale
+378,140,2023-10-18,pending,mobile_money,NULL,Ghana,Tamale
+379,140,2023-11-29,delivered,card,2023-12-02,Ghana,Tamale
+380,140,2023-10-30,delivered,mobile_money,2023-11-05,Ghana,Tamale
+381,140,2023-09-25,delivered,pay_on_delivery,2023-10-01,Ghana,Tamale
+382,141,2023-07-29,delivered,bank_transfer,2023-08-04,Ghana,Kumasi
+383,141,2023-06-06,delivered,card,2023-06-13,Ghana,Kumasi
+384,142,2023-10-31,delivered,pay_on_delivery,2023-11-03,Kenya,Nakuru
+385,142,2023-08-29,delivered,mobile_money,2023-09-05,Kenya,Nakuru
+386,142,2023-07-19,delivered,mobile_money,2023-07-21,Kenya,Nakuru
+387,142,2023-09-05,delivered,pay_on_delivery,2023-09-07,Kenya,Nakuru
+388,143,2023-08-22,pending,bank_transfer,NULL,Kenya,Nakuru
+389,143,2023-05-24,delivered,mobile_money,2023-05-31,Kenya,Nakuru
+390,143,2023-03-16,delivered,mobile_money,2023-03-19,Kenya,Nakuru
+391,143,2023-12-05,delivered,bank_transfer,2023-12-09,Kenya,Nakuru
+392,144,2023-12-04,delivered,bank_transfer,2023-12-09,South Africa,Johannesburg
+393,144,2023-12-19,pending,card,NULL,South Africa,Johannesburg
+394,144,2023-11-14,delivered,mobile_money,2023-11-21,South Africa,Johannesburg
+395,144,2023-12-24,pending,pay_on_delivery,NULL,South Africa,Johannesburg
+396,144,2023-11-27,delivered,card,2023-12-04,South Africa,Johannesburg
+397,145,2023-09-02,cancelled,mobile_money,NULL,Ghana,Tamale
+398,145,2023-05-21,delivered,pay_on_delivery,2023-05-24,Ghana,Tamale
+399,146,2023-10-14,cancelled,bank_transfer,NULL,Kenya,Mombasa
+400,146,2023-05-25,cancelled,bank_transfer,NULL,Kenya,Mombasa
+401,146,2023-11-22,cancelled,card,NULL,Kenya,Mombasa
+402,147,2023-12-22,delivered,pay_on_delivery,2023-12-28,Kenya,Kisumu
+403,148,2023-09-28,delivered,card,2023-10-02,Nigeria,Port Harcourt
+404,148,2023-03-22,cancelled,bank_transfer,NULL,Nigeria,Port Harcourt
+405,148,2023-09-05,cancelled,bank_transfer,NULL,Nigeria,Port Harcourt
+406,149,2023-10-02,delivered,card,2023-10-04,Nigeria,Port Harcourt
+407,150,2023-05-29,delivered,pay_on_delivery,2023-06-04,Ghana,Takoradi
+408,150,2023-11-22,pending,bank_transfer,NULL,Ghana,Takoradi
+409,150,2023-02-25,delivered,bank_transfer,2023-02-27,Ghana,Takoradi
+410,151,2023-06-15,pending,bank_transfer,NULL,Ghana,Takoradi
+411,151,2023-12-30,delivered,bank_transfer,2024-01-04,Ghana,Takoradi
+412,151,2023-09-04,delivered,mobile_money,2023-09-06,Ghana,Takoradi
+413,152,2023-10-05,cancelled,card,NULL,Ghana,Accra
+414,152,2023-05-31,delivered,mobile_money,2023-06-07,Ghana,Accra
+415,152,2023-12-28,cancelled,mobile_money,NULL,Ghana,Accra
+416,153,2023-10-18,pending,mobile_money,NULL,Ghana,Tamale
+417,153,2023-11-22,pending,pay_on_delivery,NULL,Ghana,Tamale
+418,153,2023-11-11,delivered,pay_on_delivery,2023-11-13,Ghana,Tamale
+419,153,2023-12-03,delivered,bank_transfer,2023-12-10,Ghana,Tamale
+420,154,2023-04-07,delivered,pay_on_delivery,2023-04-13,Nigeria,Lagos
+421,154,2023-03-03,delivered,card,2023-03-08,Nigeria,Lagos
+422,155,2023-10-22,delivered,mobile_money,2023-10-26,South Africa,Johannesburg
+423,155,2023-12-08,delivered,card,2023-12-10,South Africa,Johannesburg
+424,155,2023-09-14,cancelled,pay_on_delivery,NULL,South Africa,Johannesburg
+425,155,2023-12-12,delivered,bank_transfer,2023-12-15,South Africa,Johannesburg
+426,155,2023-07-18,delivered,card,2023-07-23,South Africa,Johannesburg
+427,156,2023-09-27,cancelled,bank_transfer,NULL,Kenya,Mombasa
+428,157,2023-12-20,delivered,card,2023-12-26,Nigeria,Kano
+429,158,2023-12-10,pending,card,NULL,Ghana,Takoradi
+430,158,2023-12-01,delivered,bank_transfer,2023-12-04,Ghana,Takoradi
+431,158,2023-09-14,delivered,pay_on_delivery,2023-09-18,Ghana,Takoradi
+432,159,2023-12-29,delivered,pay_on_delivery,2024-01-01,Nigeria,Kano
+433,159,2023-10-13,delivered,bank_transfer,2023-10-18,Nigeria,Kano
+434,160,2023-10-22,delivered,pay_on_delivery,2023-10-24,Nigeria,Port Harcourt
+435,161,2023-03-05,cancelled,pay_on_delivery,NULL,Kenya,Nairobi
+436,161,2023-05-05,delivered,bank_transfer,2023-05-08,Kenya,Nairobi
+437,162,2023-12-20,cancelled,card,NULL,Ghana,Takoradi
+438,162,2023-10-23,delivered,mobile_money,2023-10-29,Ghana,Takoradi
+439,162,2023-10-12,delivered,card,2023-10-16,Ghana,Takoradi
+440,163,2023-11-22,delivered,bank_transfer,2023-11-27,Kenya,Kisumu
+441,163,2023-12-24,delivered,bank_transfer,2023-12-26,Kenya,Kisumu
+442,163,2023-11-14,cancelled,bank_transfer,NULL,Kenya,Kisumu
+443,164,2023-02-14,pending,card,NULL,Kenya,Mombasa
+444,164,2023-03-26,cancelled,pay_on_delivery,NULL,Kenya,Mombasa
+445,164,2023-03-17,delivered,bank_transfer,2023-03-21,Kenya,Mombasa
+446,165,2023-11-09,delivered,card,2023-11-14,Nigeria,Kano
+447,165,2023-10-29,delivered,pay_on_delivery,2023-11-01,Nigeria,Kano
+448,166,2023-12-20,pending,mobile_money,NULL,Kenya,Kisumu
+449,166,2023-12-09,delivered,card,2023-12-14,Kenya,Kisumu
+450,166,2023-06-09,delivered,card,2023-06-11,Kenya,Kisumu
+451,167,2023-12-20,cancelled,card,NULL,Kenya,Nairobi
+452,167,2023-11-03,delivered,mobile_money,2023-11-09,Kenya,Nairobi
+453,168,2023-08-26,delivered,bank_transfer,2023-08-28,Nigeria,Kano
+454,169,2023-11-18,delivered,pay_on_delivery,2023-11-25,Nigeria,Kano
+455,169,2023-12-05,delivered,bank_transfer,2023-12-07,Nigeria,Kano
+456,170,2023-11-04,delivered,mobile_money,2023-11-10,South Africa,Durban
+457,170,2023-08-29,cancelled,card,NULL,South Africa,Durban
+458,170,2023-03-23,cancelled,card,NULL,South Africa,Durban
+459,171,2023-10-23,delivered,pay_on_delivery,2023-10-26,Kenya,Nakuru
+460,172,2023-12-28,delivered,mobile_money,2023-12-31,Ghana,Kumasi
+461,172,2023-09-11,pending,card,NULL,Ghana,Kumasi
+462,172,2023-06-11,delivered,pay_on_delivery,2023-06-18,Ghana,Kumasi
+463,173,2023-06-23,delivered,pay_on_delivery,2023-06-28,Nigeria,Kano
+464,173,2023-10-29,delivered,card,2023-11-02,Nigeria,Kano
+465,173,2023-05-19,delivered,card,2023-05-22,Nigeria,Kano
+466,173,2023-10-31,delivered,bank_transfer,2023-11-02,Nigeria,Kano
+467,173,2023-07-26,delivered,mobile_money,2023-07-31,Nigeria,Kano
+468,173,2023-11-30,pending,mobile_money,NULL,Nigeria,Kano
+469,173,2023-08-28,pending,card,NULL,Nigeria,Kano
+470,174,2023-11-02,delivered,pay_on_delivery,2023-11-06,South Africa,Pretoria
+471,174,2023-08-08,delivered,bank_transfer,2023-08-13,South Africa,Pretoria
+472,175,2023-11-15,delivered,bank_transfer,2023-11-20,Kenya,Nairobi
+473,175,2023-10-17,delivered,bank_transfer,2023-10-23,Kenya,Nairobi
+474,176,2023-10-01,cancelled,mobile_money,NULL,South Africa,Durban
+475,176,2023-09-03,delivered,mobile_money,2023-09-08,South Africa,Durban
+476,176,2023-08-24,pending,mobile_money,NULL,South Africa,Durban
+477,177,2023-04-07,delivered,card,2023-04-12,Kenya,Nakuru
+478,177,2023-05-24,pending,pay_on_delivery,NULL,Kenya,Nakuru
+479,177,2023-11-09,delivered,bank_transfer,2023-11-16,Kenya,Nakuru
+480,178,2023-09-09,delivered,bank_transfer,2023-09-13,Nigeria,Kano
+481,179,2023-12-16,cancelled,mobile_money,NULL,Nigeria,Abuja
+482,179,2023-12-07,pending,pay_on_delivery,NULL,Nigeria,Abuja
+483,180,2023-09-25,pending,mobile_money,NULL,South Africa,Johannesburg
+484,180,2023-08-04,delivered,card,2023-08-06,South Africa,Johannesburg
+485,180,2023-10-19,delivered,pay_on_delivery,2023-10-25,South Africa,Johannesburg
+486,181,2023-11-29,cancelled,bank_transfer,NULL,Nigeria,Kano
+487,181,2023-11-16,delivered,card,2023-11-22,Nigeria,Kano
+488,181,2023-11-07,delivered,pay_on_delivery,2023-11-11,Nigeria,Kano
+489,182,2023-12-29,delivered,card,2023-12-31,Ghana,Accra
+490,182,2023-07-12,pending,bank_transfer,NULL,Ghana,Accra
+491,182,2023-02-21,pending,card,NULL,Ghana,Accra
+492,182,2023-03-06,cancelled,pay_on_delivery,NULL,Ghana,Accra
+493,183,2023-12-11,delivered,bank_transfer,2023-12-16,Nigeria,Lagos
+494,183,2023-06-18,delivered,card,2023-06-21,Nigeria,Lagos
+495,183,2023-06-15,delivered,bank_transfer,2023-06-18,Nigeria,Lagos
+496,183,2023-12-16,cancelled,card,NULL,Nigeria,Lagos
+497,184,2023-04-13,delivered,mobile_money,2023-04-17,Nigeria,Kano
+498,185,2023-04-20,delivered,card,2023-04-26,Nigeria,Port Harcourt
+499,185,2023-03-12,delivered,mobile_money,2023-03-19,Nigeria,Port Harcourt
+500,185,2023-02-22,delivered,mobile_money,2023-02-24,Nigeria,Port Harcourt
+501,186,2023-10-30,delivered,pay_on_delivery,2023-11-03,Nigeria,Lagos
+502,187,2023-12-24,delivered,card,2023-12-31,Ghana,Tamale
+503,187,2023-12-30,delivered,mobile_money,2024-01-01,Ghana,Tamale
+504,187,2023-12-07,pending,card,NULL,Ghana,Tamale
+505,187,2023-12-09,delivered,pay_on_delivery,2023-12-13,Ghana,Tamale
+506,187,2023-11-07,pending,bank_transfer,NULL,Ghana,Tamale
+507,187,2023-10-11,delivered,bank_transfer,2023-10-16,Ghana,Tamale
+508,187,2023-12-28,delivered,mobile_money,2023-12-31,Ghana,Tamale
+509,188,2023-10-29,cancelled,bank_transfer,NULL,Ghana,Tamale
+510,189,2023-01-14,pending,mobile_money,NULL,Ghana,Accra
+511,189,2023-09-18,cancelled,mobile_money,NULL,Ghana,Accra
+512,189,2023-04-03,cancelled,mobile_money,NULL,Ghana,Accra
+513,190,2023-09-26,delivered,card,2023-10-02,South Africa,Durban
+514,190,2023-10-27,delivered,mobile_money,2023-10-30,South Africa,Durban
+515,190,2023-11-05,delivered,card,2023-11-08,South Africa,Durban
+516,190,2023-11-18,delivered,mobile_money,2023-11-24,South Africa,Durban
+517,190,2023-08-16,delivered,pay_on_delivery,2023-08-20,South Africa,Durban
+518,191,2023-11-07,delivered,card,2023-11-11,Nigeria,Lagos
+519,191,2023-08-01,delivered,bank_transfer,2023-08-03,Nigeria,Lagos
+520,191,2023-12-12,delivered,bank_transfer,2023-12-15,Nigeria,Lagos
+521,192,2023-11-07,delivered,bank_transfer,2023-11-14,Ghana,Accra
+522,193,2023-12-13,pending,mobile_money,NULL,South Africa,Johannesburg
+523,194,2023-10-10,delivered,pay_on_delivery,2023-10-13,Kenya,Kisumu
+524,194,2023-09-22,delivered,mobile_money,2023-09-25,Kenya,Kisumu
+525,195,2023-11-23,delivered,pay_on_delivery,2023-11-27,South Africa,Johannesburg
+526,195,2023-10-30,delivered,mobile_money,2023-11-02,South Africa,Johannesburg
+527,195,2023-10-19,delivered,card,2023-10-21,South Africa,Johannesburg
+528,196,2023-11-04,delivered,mobile_money,2023-11-09,Kenya,Mombasa
+529,196,2023-10-26,cancelled,card,NULL,Kenya,Mombasa
+530,197,2023-11-10,delivered,card,2023-11-13,Ghana,Kumasi
+531,197,2023-10-31,cancelled,card,NULL,Ghana,Kumasi
+532,197,2023-10-18,pending,mobile_money,NULL,Ghana,Kumasi
+533,198,2023-11-25,delivered,pay_on_delivery,2023-12-01,Nigeria,Kano
+534,198,2023-11-07,delivered,bank_transfer,2023-11-11,Nigeria,Kano
+535,198,2023-12-20,delivered,card,2023-12-26,Nigeria,Kano
+536,199,2023-08-02,pending,mobile_money,NULL,South Africa,Johannesburg
+537,199,2023-11-03,cancelled,card,NULL,South Africa,Johannesburg
+538,199,2023-10-11,delivered,pay_on_delivery,2023-10-15,South Africa,Johannesburg
+539,199,2023-12-01,delivered,mobile_money,2023-12-07,South Africa,Johannesburg
+540,199,2023-07-27,delivered,bank_transfer,2023-08-03,South Africa,Johannesburg
+541,200,2023-10-10,delivered,pay_on_delivery,2023-10-12,Nigeria,Port Harcourt

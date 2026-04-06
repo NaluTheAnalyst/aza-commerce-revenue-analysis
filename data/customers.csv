@@ -1,0 +1,201 @@
+customer_id,first_name,last_name,email,country,city,segment,signup_date
+1,Musa,Asante,customer1@email.com,Ghana,Tamale,Regular,2023-07-03
+2,Kwame,Asante,customer2@email.com,Nigeria,Kano,Regular,2023-07-16
+3,Yaw,Dlamini,customer3@email.com,Kenya,Nakuru,Regular,2023-01-17
+4,Musa,Diallo,customer4@email.com,South Africa,Durban,Regular,2023-05-20
+5,Aisha,Okafor,customer5@email.com,South Africa,Durban,Regular,2023-05-23
+6,Tunde,Eze,customer6@email.com,Nigeria,Ibadan,Regular,2023-10-08
+7,Esther,Diallo,customer7@email.com,Kenya,Nairobi,Regular,2023-02-16
+8,Comfort,Diallo,customer8@email.com,Ghana,Accra,Premium,2023-09-14
+9,Yaw,Adeleke,customer9@email.com,Ghana,Kumasi,Regular,2023-06-14
+10,Olu,Mwangi,customer10@email.com,Ghana,Accra,VIP,2023-09-25
+11,Kojo,Owusu,customer11@email.com,Ghana,Tamale,Regular,2023-01-19
+12,Nkechi,Okonkwo,customer12@email.com,Ghana,Accra,Regular,2023-05-25
+13,Patience,Ibrahim,customer13@email.com,Kenya,Nairobi,Regular,2023-09-26
+14,Chioma,Nkosi,customer14@email.com,Ghana,Tamale,Regular,2023-04-27
+15,Seun,Ndlovu,customer15@email.com,Nigeria,Lagos,Premium,2023-10-10
+16,Ibrahim,Patel,customer16@email.com,Nigeria,Abuja,Regular,2023-09-05
+17,Kofi,Ibrahim,customer17@email.com,Nigeria,Ibadan,Regular,2023-04-27
+18,Grace,Sithole,customer18@email.com,Nigeria,Port Harcourt,Premium,2023-09-21
+19,Dele,Adeleke,customer19@email.com,Ghana,Tamale,Premium,2023-05-11
+20,Comfort,Dlamini,customer20@email.com,Kenya,Kisumu,Premium,2023-04-30
+21,Bayo,Mwangi,customer21@email.com,Kenya,Kisumu,Regular,2023-04-09
+22,Ngozi,Adeyemi,customer22@email.com,Ghana,Accra,Regular,2023-08-11
+23,Esther,Mensah,customer23@email.com,Nigeria,Port Harcourt,Regular,2023-10-08
+24,Bayo,Kenyatta,customer24@email.com,Kenya,Nakuru,Premium,2023-07-23
+25,Wale,Sithole,customer25@email.com,Ghana,Accra,Regular,2023-04-03
+26,Olu,Mensah,customer26@email.com,Kenya,Mombasa,Regular,2023-03-24
+27,Bayo,Chukwu,customer27@email.com,Ghana,Takoradi,VIP,2023-08-21
+28,Dayo,Mandela,customer28@email.com,South Africa,Johannesburg,Premium,2023-02-13
+29,Tunde,Odinga,customer29@email.com,Ghana,Accra,VIP,2023-09-27
+30,Ruth,Mensah,customer30@email.com,Ghana,Takoradi,Premium,2023-04-08
+31,Halima,Kamau,customer31@email.com,Kenya,Nakuru,Regular,2023-06-25
+32,Mary,Chukwu,customer32@email.com,Ghana,Tamale,Premium,2023-10-28
+33,Kofi,Okonkwo,customer33@email.com,Kenya,Nakuru,Premium,2023-07-01
+34,Esther,Adeleke,customer34@email.com,Ghana,Kumasi,Regular,2023-09-22
+35,Patience,Okonkwo,customer35@email.com,Ghana,Kumasi,Premium,2023-06-30
+36,Uche,Nkosi,customer36@email.com,Kenya,Nairobi,Regular,2023-03-04
+37,Dayo,Osei,customer37@email.com,Ghana,Tamale,Regular,2023-02-13
+38,Mary,Owusu,customer38@email.com,South Africa,Cape Town,Regular,2023-10-04
+39,Zainab,Mahlangu,customer39@email.com,Ghana,Accra,Regular,2023-04-09
+40,Grace,Mwangi,customer40@email.com,Nigeria,Ibadan,Regular,2023-05-01
+41,Kojo,Adeyemi,customer41@email.com,Nigeria,Abuja,Premium,2023-05-25
+42,Abena,Okonkwo,customer42@email.com,Kenya,Nairobi,Premium,2023-10-30
+43,Kojo,Okafor,customer43@email.com,Nigeria,Port Harcourt,Premium,2023-04-28
+44,Hauwa,Osei,customer44@email.com,South Africa,Pretoria,Regular,2023-08-14
+45,Kwame,Adeyemi,customer45@email.com,South Africa,Durban,VIP,2023-09-22
+46,Esther,Mensah,customer46@email.com,Ghana,Tamale,VIP,2023-10-10
+47,Musa,Adeleke,customer47@email.com,Kenya,Kisumu,Regular,2023-08-22
+48,Halima,Mahlangu,customer48@email.com,Kenya,Nakuru,Regular,2023-02-05
+49,Grace,Owusu,customer49@email.com,Kenya,Mombasa,Premium,2023-09-11
+50,Dele,Dlamini,customer50@email.com,Kenya,Nairobi,Regular,2023-06-21
+51,Ama,Owusu,customer51@email.com,Nigeria,Abuja,Premium,2023-04-07
+52,Comfort,Boateng,customer52@email.com,Nigeria,Lagos,Premium,2023-03-26
+53,Adaeze,Adeleke,customer53@email.com,Ghana,Kumasi,Regular,2023-03-14
+54,Uche,Nwosu,customer54@email.com,Ghana,Takoradi,Regular,2023-04-04
+55,Abena,Dlamini,customer55@email.com,Kenya,Kisumu,Premium,2023-07-25
+56,Olu,Nkosi,customer56@email.com,Ghana,Accra,Regular,2023-01-19
+57,Ruth,Adeleke,customer57@email.com,South Africa,Johannesburg,Premium,2023-02-12
+58,Patience,Asante,customer58@email.com,Nigeria,Kano,Premium,2023-07-10
+59,Blessing,Patel,customer59@email.com,South Africa,Durban,Regular,2023-05-30
+60,Blessing,Kamau,customer60@email.com,South Africa,Pretoria,Premium,2023-09-07
+61,Femi,Zuma,customer61@email.com,Nigeria,Port Harcourt,Regular,2023-10-26
+62,Zainab,Okafor,customer62@email.com,Nigeria,Lagos,Premium,2023-08-15
+63,Musa,Eze,customer63@email.com,Ghana,Kumasi,VIP,2023-08-20
+64,Halima,Sithole,customer64@email.com,Nigeria,Port Harcourt,Regular,2023-01-30
+65,Grace,Okonkwo,customer65@email.com,South Africa,Durban,Premium,2023-07-30
+66,Patience,Kenyatta,customer66@email.com,Kenya,Nairobi,Regular,2023-08-30
+67,Ibrahim,Mwangi,customer67@email.com,Kenya,Nakuru,Premium,2023-10-16
+68,Nkechi,Okafor,customer68@email.com,Nigeria,Port Harcourt,VIP,2023-01-14
+69,Emeka,Ibrahim,customer69@email.com,Kenya,Nakuru,Regular,2023-09-15
+70,Uche,Mandela,customer70@email.com,Nigeria,Lagos,Premium,2023-08-26
+71,Patience,Ndlovu,customer71@email.com,South Africa,Pretoria,Premium,2023-03-26
+72,Olu,Mensah,customer72@email.com,Kenya,Mombasa,Regular,2023-07-11
+73,Amina,Owusu,customer73@email.com,Ghana,Kumasi,Premium,2023-06-22
+74,Chioma,Osei,customer74@email.com,Ghana,Accra,Regular,2023-06-21
+75,Mary,Mahlangu,customer75@email.com,Kenya,Mombasa,Regular,2023-08-05
+76,Nkechi,Diallo,customer76@email.com,Ghana,Tamale,Regular,2023-08-15
+77,Kwame,Boateng,customer77@email.com,Kenya,Nairobi,Premium,2023-01-20
+78,Halima,Owusu,customer78@email.com,Kenya,Nakuru,Regular,2023-09-11
+79,Bayo,Diallo,customer79@email.com,Kenya,Mombasa,Regular,2023-01-27
+80,Adaeze,Patel,customer80@email.com,Kenya,Nakuru,Regular,2023-03-13
+81,Wale,Owusu,customer81@email.com,Kenya,Mombasa,Premium,2023-07-07
+82,Abena,Zuma,customer82@email.com,Ghana,Accra,Regular,2023-10-18
+83,Musa,Mensah,customer83@email.com,Kenya,Kisumu,Regular,2023-07-28
+84,Bayo,Adeyemi,customer84@email.com,Kenya,Nakuru,Regular,2023-09-14
+85,Fatima,Nwosu,customer85@email.com,Ghana,Tamale,Premium,2023-03-28
+86,Fatima,Ibrahim,customer86@email.com,Ghana,Accra,Premium,2023-10-29
+87,Ruth,Okafor,customer87@email.com,Nigeria,Ibadan,Regular,2023-09-12
+88,Seun,Mensah,customer88@email.com,South Africa,Cape Town,Premium,2023-09-19
+89,Toyin,Mandela,customer89@email.com,Ghana,Kumasi,Regular,2023-07-19
+90,Ruth,Asante,customer90@email.com,Nigeria,Kano,Regular,2023-05-16
+91,Grace,Ndlovu,customer91@email.com,Kenya,Nairobi,Regular,2023-01-25
+92,Hauwa,Osei,customer92@email.com,Nigeria,Ibadan,Premium,2023-06-17
+93,Kofi,Kamau,customer93@email.com,Nigeria,Kano,Regular,2023-02-14
+94,Tunde,Sithole,customer94@email.com,Nigeria,Abuja,Regular,2023-02-23
+95,Tunde,Dlamini,customer95@email.com,Ghana,Kumasi,Regular,2023-02-11
+96,Yaw,Mandela,customer96@email.com,Kenya,Nakuru,Regular,2023-06-13
+97,Olu,Adeyemi,customer97@email.com,Kenya,Nakuru,Regular,2023-10-30
+98,Ruth,Osei,customer98@email.com,Nigeria,Lagos,Premium,2023-05-14
+99,Mary,Chukwu,customer99@email.com,South Africa,Durban,Regular,2023-08-23
+100,Patience,Nkosi,customer100@email.com,Nigeria,Lagos,Premium,2023-03-02
+101,Zainab,Sithole,customer101@email.com,Kenya,Nakuru,Regular,2023-10-10
+102,Femi,Nwosu,customer102@email.com,Ghana,Tamale,VIP,2023-04-14
+103,Kojo,Adeleke,customer103@email.com,Nigeria,Abuja,Premium,2023-09-04
+104,Emeka,Nkosi,customer104@email.com,South Africa,Johannesburg,VIP,2023-07-21
+105,Femi,Eze,customer105@email.com,Kenya,Kisumu,VIP,2023-10-02
+106,Esther,Abubakar,customer106@email.com,Kenya,Mombasa,Regular,2023-10-29
+107,Amina,Mahlangu,customer107@email.com,Ghana,Takoradi,Regular,2023-08-28
+108,Zainab,Osei,customer108@email.com,Nigeria,Ibadan,Premium,2023-09-17
+109,Halima,Adeyemi,customer109@email.com,Kenya,Mombasa,Regular,2023-04-17
+110,Amina,Chukwu,customer110@email.com,Nigeria,Kano,Regular,2023-07-19
+111,Blessing,Okonkwo,customer111@email.com,Ghana,Tamale,Regular,2023-09-21
+112,Kwame,Dlamini,customer112@email.com,Ghana,Takoradi,Regular,2023-01-16
+113,Ama,Diallo,customer113@email.com,Ghana,Accra,Premium,2023-06-06
+114,Uche,Mahlangu,customer114@email.com,Ghana,Accra,Premium,2023-03-16
+115,Dayo,Diallo,customer115@email.com,Nigeria,Abuja,Regular,2023-01-31
+116,Uche,Adeyemi,customer116@email.com,Kenya,Kisumu,Premium,2023-10-18
+117,Toyin,Kenyatta,customer117@email.com,South Africa,Cape Town,Regular,2023-05-28
+118,Adaeze,Sithole,customer118@email.com,Nigeria,Lagos,Regular,2023-07-27
+119,Toyin,Ibrahim,customer119@email.com,Ghana,Tamale,Regular,2023-01-02
+120,Olu,Eze,customer120@email.com,Nigeria,Ibadan,Regular,2023-07-05
+121,Aisha,Mensah,customer121@email.com,Kenya,Nakuru,Regular,2023-08-20
+122,Aisha,Kenyatta,customer122@email.com,Nigeria,Lagos,Premium,2023-10-15
+123,Patience,Diallo,customer123@email.com,Nigeria,Lagos,VIP,2023-09-04
+124,Chidi,Chukwu,customer124@email.com,Nigeria,Abuja,Regular,2023-06-03
+125,Mary,Boateng,customer125@email.com,Nigeria,Lagos,Regular,2023-04-28
+126,Aisha,Abubakar,customer126@email.com,Kenya,Mombasa,Regular,2023-01-30
+127,Kunle,Diallo,customer127@email.com,Kenya,Nakuru,Regular,2023-01-06
+128,Amina,Asante,customer128@email.com,Ghana,Takoradi,Premium,2023-09-15
+129,Bayo,Mwangi,customer129@email.com,Ghana,Takoradi,Premium,2023-01-29
+130,Wale,Osei,customer130@email.com,South Africa,Johannesburg,VIP,2023-07-09
+131,Ruth,Ndlovu,customer131@email.com,Ghana,Tamale,Regular,2023-09-24
+132,Blessing,Zuma,customer132@email.com,South Africa,Durban,Regular,2023-06-18
+133,Ama,Ibrahim,customer133@email.com,South Africa,Durban,Regular,2023-04-07
+134,Esther,Abubakar,customer134@email.com,Kenya,Mombasa,Regular,2023-09-10
+135,Seyi,Adeyemi,customer135@email.com,South Africa,Durban,Regular,2023-02-26
+136,Halima,Odinga,customer136@email.com,Ghana,Takoradi,VIP,2023-05-22
+137,Emeka,Eze,customer137@email.com,South Africa,Johannesburg,Regular,2023-02-13
+138,Abena,Abubakar,customer138@email.com,Nigeria,Ibadan,Regular,2023-03-07
+139,Blessing,Dlamini,customer139@email.com,Nigeria,Kano,Premium,2023-09-23
+140,Mary,Sithole,customer140@email.com,Ghana,Tamale,Premium,2023-08-22
+141,Chidi,Sithole,customer141@email.com,Ghana,Kumasi,Premium,2023-05-12
+142,Kofi,Ibrahim,customer142@email.com,Kenya,Nakuru,Premium,2023-05-31
+143,Wale,Kamau,customer143@email.com,Kenya,Nakuru,VIP,2023-02-05
+144,Fatima,Sithole,customer144@email.com,South Africa,Johannesburg,Premium,2023-10-09
+145,Dayo,Abubakar,customer145@email.com,Ghana,Tamale,Premium,2023-05-18
+146,Dele,Patel,customer146@email.com,Kenya,Mombasa,Regular,2023-05-18
+147,Zainab,Nkosi,customer147@email.com,Kenya,Kisumu,Regular,2023-09-09
+148,Patience,Asante,customer148@email.com,Nigeria,Port Harcourt,Regular,2023-02-18
+149,Fatima,Odinga,customer149@email.com,Nigeria,Port Harcourt,Regular,2023-08-13
+150,Adaeze,Asante,customer150@email.com,Ghana,Takoradi,Regular,2023-02-21
+151,Femi,Mahlangu,customer151@email.com,Ghana,Takoradi,Regular,2023-02-15
+152,Grace,Eze,customer152@email.com,Ghana,Accra,Regular,2023-04-29
+153,Zainab,Patel,customer153@email.com,Ghana,Tamale,VIP,2023-09-07
+154,Nkechi,Adeleke,customer154@email.com,Nigeria,Lagos,Premium,2023-01-29
+155,Kwame,Kamau,customer155@email.com,South Africa,Johannesburg,Premium,2023-05-04
+156,Dayo,Patel,customer156@email.com,Kenya,Mombasa,Regular,2023-06-21
+157,Femi,Dlamini,customer157@email.com,Nigeria,Kano,Regular,2023-10-14
+158,Kojo,Osei,customer158@email.com,Ghana,Takoradi,Regular,2023-07-03
+159,Kunle,Chukwu,customer159@email.com,Nigeria,Kano,Regular,2023-05-09
+160,Amina,Mwangi,customer160@email.com,Nigeria,Port Harcourt,Regular,2023-06-24
+161,Kwame,Adeyemi,customer161@email.com,Kenya,Nairobi,Regular,2023-01-15
+162,Yaw,Adeleke,customer162@email.com,Ghana,Takoradi,Premium,2023-09-28
+163,Blessing,Patel,customer163@email.com,Kenya,Kisumu,Premium,2023-07-09
+164,Ibrahim,Osei,customer164@email.com,Kenya,Mombasa,Regular,2023-01-06
+165,Fatima,Zuma,customer165@email.com,Nigeria,Kano,Regular,2023-03-03
+166,Esther,Adeyemi,customer166@email.com,Kenya,Kisumu,VIP,2023-06-02
+167,Kofi,Zuma,customer167@email.com,Kenya,Nairobi,Regular,2023-07-09
+168,Kojo,Odinga,customer168@email.com,Nigeria,Kano,Regular,2023-04-14
+169,Seyi,Ndlovu,customer169@email.com,Nigeria,Kano,Regular,2023-09-10
+170,Comfort,Abubakar,customer170@email.com,South Africa,Durban,Regular,2023-01-25
+171,Kunle,Mahlangu,customer171@email.com,Kenya,Nakuru,Regular,2023-06-30
+172,Dele,Mwangi,customer172@email.com,Ghana,Kumasi,Regular,2023-05-04
+173,Femi,Patel,customer173@email.com,Nigeria,Kano,VIP,2023-03-19
+174,Ngozi,Dlamini,customer174@email.com,South Africa,Pretoria,Premium,2023-04-16
+175,Chidi,Zuma,customer175@email.com,Kenya,Nairobi,Regular,2023-09-13
+176,Adaeze,Okonkwo,customer176@email.com,South Africa,Durban,Regular,2023-08-12
+177,Kunle,Mwangi,customer177@email.com,Kenya,Nakuru,Regular,2023-01-18
+178,Kojo,Mandela,customer178@email.com,Nigeria,Kano,Regular,2023-08-18
+179,Mary,Patel,customer179@email.com,Nigeria,Abuja,Regular,2023-10-17
+180,Uche,Dlamini,customer180@email.com,South Africa,Johannesburg,Premium,2023-05-21
+181,Kunle,Mensah,customer181@email.com,Nigeria,Kano,Regular,2023-08-19
+182,Esther,Ibrahim,customer182@email.com,Ghana,Accra,VIP,2023-02-09
+183,Bayo,Adeyemi,customer183@email.com,Nigeria,Lagos,Premium,2023-06-11
+184,Kojo,Adeleke,customer184@email.com,Nigeria,Kano,Regular,2023-02-04
+185,Tunde,Abubakar,customer185@email.com,Nigeria,Port Harcourt,Regular,2023-02-07
+186,Yaw,Abubakar,customer186@email.com,Nigeria,Lagos,Regular,2023-09-29
+187,Amina,Nwosu,customer187@email.com,Ghana,Tamale,VIP,2023-10-08
+188,Tunde,Mensah,customer188@email.com,Ghana,Tamale,Regular,2023-09-10
+189,Ruth,Zuma,customer189@email.com,Ghana,Accra,Premium,2023-01-05
+190,Emeka,Nkosi,customer190@email.com,South Africa,Durban,VIP,2023-07-26
+191,Grace,Nkosi,customer191@email.com,Nigeria,Lagos,Regular,2023-03-01
+192,Hauwa,Zuma,customer192@email.com,Ghana,Accra,Regular,2023-03-31
+193,Ngozi,Okonkwo,customer193@email.com,South Africa,Johannesburg,Regular,2023-09-09
+194,Abena,Kenyatta,customer194@email.com,Kenya,Kisumu,Premium,2023-03-18
+195,Bayo,Kenyatta,customer195@email.com,South Africa,Johannesburg,Premium,2023-09-28
+196,Bayo,Mensah,customer196@email.com,Kenya,Mombasa,Premium,2023-07-30
+197,Dayo,Adeleke,customer197@email.com,Ghana,Kumasi,Regular,2023-03-04
+198,Uche,Patel,customer198@email.com,Nigeria,Kano,Regular,2023-10-27
+199,Kunle,Asante,customer199@email.com,South Africa,Johannesburg,Premium,2023-06-28
+200,Esther,Eze,customer200@email.com,Nigeria,Port Harcourt,Regular,2023-10-05

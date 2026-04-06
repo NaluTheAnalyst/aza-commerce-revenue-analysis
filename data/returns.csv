@@ -1,0 +1,35 @@
+return_id,order_id,customer_id,return_date,reason,country
+1,2,1,2023-09-11,Wrong item received,Ghana
+2,72,30,2023-05-08,Wrong item received,Ghana
+3,74,31,2023-09-11,Changed mind,Kenya
+4,77,32,2023-12-08,Wrong item received,Ghana
+5,138,54,2023-10-29,Changed mind,Ghana
+6,142,55,2023-08-11,Damaged product,Kenya
+7,201,73,2023-07-31,Damaged product,Ghana
+8,204,75,2023-11-29,Damaged product,Kenya
+9,207,76,2023-10-30,Damaged product,Ghana
+10,216,80,2023-12-13,Changed mind,Kenya
+11,223,83,2023-11-14,Wrong item received,Kenya
+12,239,88,2023-12-26,Changed mind,South Africa
+13,253,94,2023-12-19,Not as described,Nigeria
+14,273,103,2023-12-22,Wrong item received,Nigeria
+15,297,111,2023-11-13,Changed mind,Ghana
+16,302,113,2023-11-14,Not as described,Ghana
+17,303,113,2023-09-01,Wrong item received,Ghana
+18,344,130,2023-12-16,Changed mind,South Africa
+19,377,140,2023-10-20,Defective product,Ghana
+20,382,141,2023-08-13,Damaged product,Ghana
+21,385,142,2023-09-19,Wrong item received,Kenya
+22,387,142,2023-09-08,Changed mind,Kenya
+23,392,144,2023-12-13,Not as described,South Africa
+24,412,151,2023-09-16,Defective product,Ghana
+25,438,162,2023-11-08,Wrong item received,Ghana
+26,440,163,2023-12-01,Changed mind,Kenya
+27,446,165,2023-11-27,Damaged product,Nigeria
+28,455,169,2023-12-17,Changed mind,Nigeria
+29,470,174,2023-11-15,Not as described,South Africa
+30,484,180,2023-08-11,Not as described,South Africa
+31,499,185,2023-03-31,Not as described,Nigeria
+32,526,195,2023-11-15,Defective product,South Africa
+33,530,197,2023-11-22,Defective product,Ghana
+34,539,199,2023-12-14,Defective product,South Africa
